@@ -55,7 +55,7 @@ gRPC for .NET doesn't support running on .NET Framework and Xamarin/Mono. [gRPC 
 > * [Azure Kubernetes Service (AKS)](https://azure.microsoft.com/services/kubernetes-service/)
 > * [Azure App Service](https://azure.microsoft.com/services/app-service/)&dagger;
 
-&dagger;Azure App Service doesn't support hosting gRPC over HTTP/2. gRPC-Web, which doesn't require HTTP/2 and supports most of gRPC's features, can be used instead.
+&dagger;Azure App Service doesn't support hosting gRPC over HTTP/2.  gRPC-Web is the recommended alternative, it doesn't require HTTP/2 and supports most of gRPC's features.
 
 ## Additional resources
 
