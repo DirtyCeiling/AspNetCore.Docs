@@ -16,11 +16,11 @@ By [James Newton-King](https://twitter.com/jamesnk)
 
 gRPC for .NET supports any device that .NET Core supports.
 
-✔️ Windows
-
-✔️ Linux
-
-✔️ macOS&dagger;
+> [!div class="checklist"]
+>
+> * Windows
+> * Linux
+> * macOS&dagger;
 
 &dagger;ASP.NET Core websites on macOS doesn't support HTTPS. gRPC clients on macOS can still use HTTPS when calling remote services.
 
@@ -28,36 +28,32 @@ gRPC for .NET supports any device that .NET Core supports.
 
 gRPC services can be hosted on all built-in ASP.NET Core servers.
 
-✔️ Kestrel
-
-✔️ TestServer
-
-✔️ IIS&dagger;
-
-✔️ HttpSys&dagger;
-
+> [!div class="checklist"]
+>
+> * Kestrel
+> * TestServer
+> * IIS&dagger;
+> * HttpSys&dagger;
 
 &dagger;IIS and HttpSys require .NET 5 and Windows XXXX or later
 
 ## .NET version requirements
 
-gRPC for .NET supports .NET Core and .NET 5 or later.
+gRPC for .NET supports .NET Core 3 and .NET 5 or later.
 
-✔️ .NET 5 or later
+> [!div class="checklist"]
+>
+> * .NET 5 or later
+> * .NET Core 3
 
-✔️ .NET Core 3 or later
-
-❌ .NET Framework&dagger;
-
-❌ Xamarin/Mono&dagger;
-
-&dagger;[gRPC C# core-library](https://grpc.io/docs/languages/csharp/quickstart/) is a third party project that supports .NET Framework and Xamarin/Mono. This library is not supported by Microsoft.
+gRPC for .NET doesn't support running on .NET Framework and Xamarin/Mono. [gRPC C# core-library](https://grpc.io/docs/languages/csharp/quickstart/) is a third party library that supports .NET Framework and Xamarin/Mono. This library is not supported by Microsoft.
 
 ## Azure services
 
-✔️ [Azure Kubernetes Service (AKS)](https://azure.microsoft.com/services/kubernetes-service/)
-
-❌ [Azure App Service](https://azure.microsoft.com/services/app-service/)&dagger;
+> [!div class="checklist"]
+>
+> * [Azure Kubernetes Service (AKS)](https://azure.microsoft.com/services/kubernetes-service/)
+> * [Azure App Service](https://azure.microsoft.com/services/app-service/)&dagger;
 
 &dagger;Azure App Service doesn't support hosting gRPC over HTTP/2. gRPC-Web, which doesn't require HTTP/2 and supports most of gRPC's features, can be used instead.
 
