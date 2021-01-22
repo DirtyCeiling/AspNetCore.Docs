@@ -728,6 +728,8 @@
   items:
     - name: Introduction to gRPC services
       uid: grpc/index
+    - name: Supported platforms
+      uid: grpc/supported-platforms
     - name: Tutorials
       items:
         - name: Get started with a gRPC service
